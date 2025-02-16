@@ -1,0 +1,39 @@
+.create-profile-container {
+  text-align: center;
+  padding: 50px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1a5276;
+}
+
+.profile-summary {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+}

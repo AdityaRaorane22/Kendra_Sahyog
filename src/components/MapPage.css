@@ -1,0 +1,46 @@
+.map-page-container {
+  padding: 30px; /* Increased padding for a spacious feel */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 12px; /* Slightly larger rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  max-width: 1200px; /* Limit the width for better layout */
+  margin: 20px auto; /* Center the container with margin */
+  font-family: 'Arial', sans-serif; /* Set a clean font family */
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50; /* Darker color for the heading */
+  margin-bottom: 15px; /* Spacing below heading */
+  font-size: 24px; /* Increased font size for headings */
+}
+
+p {
+  text-align: center; /* Center align paragraph text */
+  color: #7f8c8d; /* Lighter gray for the text */
+  font-size: 18px; /* Increased font size for better readability */
+  margin-bottom: 25px; /* Space below paragraph */
+  line-height: 1.6; /* Better line height for readability */
+}
+
+.leaflet-container {
+  border-radius: 12px; /* Rounded corners for the map */
+}
+
+h4 {
+  margin: 0;
+  color: #2980b9; /* Color for marker titles */
+  font-size: 18px; /* Slightly larger font for marker titles */
+}
+
+p {
+  margin: 5px 0;
+  font-size: 15px; /* Size for description text */
+  color: #555; /* Gray color for descriptions */
+}
+
+.popup p {
+  margin: 0; /* Reset margin for popup paragraphs */
+  font-size: 14px; /* Size for popup description text */
+  color: #333; /* Darker text for better visibility in popups */
+}

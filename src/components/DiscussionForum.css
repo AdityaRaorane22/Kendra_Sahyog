@@ -1,0 +1,109 @@
+.discussion-forum-container {
+  padding: 20px;
+  background-color: #e5ddd5; /* Light gray background similar to WhatsApp */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 20px auto; /* Center the component */
+}
+
+h2 {
+  color: #333; /* Darker text for headings */
+  margin-bottom: 15px;
+  text-align: center; /* Center align heading */
+}
+
+.chat-options, .group-options {
+  margin-bottom: 20px;
+  text-align: center; /* Center buttons */
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Primary color */
+  color: white;
+  font-weight: bold; /* Make button text bold */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  margin-right: 5px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+button.active {
+  background-color: #0056b3; /* Active state color */
+}
+
+.posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Reset default margins */
+}
+
+.post-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-item h3 {
+  color: #007bff; /* Color for post titles */
+  margin: 0 0 5px; /* Space between title and content */
+}
+
+.post-item p {
+  color: #555; /* Slightly lighter for post content */
+  margin: 0;
+}
+
+.chat-messages {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9; /* Light gray background for messages */
+  border-radius: 5px;
+  max-height: 300px; /* Limit height for overflow */
+  overflow-y: auto; /* Scrollable if too many messages */
+}
+
+.chat-message {
+  background-color: #d4edda; /* Light green background for sent messages */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  align-self: flex-end; /* Align to the right for sent messages */
+}
+
+.message-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Larger text for input */
+  margin-right: 10px; /* Space between input and button */
+}
+
+.message-input .btn {
+  padding: 10px 15px;
+  background-color: #28a745; /* Success color for send button */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-input .btn:hover {
+  background-color: #218838; /* Darker shade on hover */
+}

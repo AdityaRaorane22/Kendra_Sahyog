@@ -1,0 +1,66 @@
+.public-dashboard-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for professional look */
+  max-width: 1200px; /* Constrain the width of the dashboard */
+  margin: 0 auto; /* Center the content */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Dark text for headings */
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.map-container {
+  margin-bottom: 40px;
+  border-radius: 8px;
+  overflow: hidden; /* To make the map's corners rounded */
+}
+
+h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.status-container {
+  background-color: #fff; /* White background for the status section */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.status-container li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.status-container li:last-child {
+  border-bottom: none;
+}
+
+.status-container li strong {
+  font-weight: bold;
+}
+
+.status-container li::before {
+  content: '⚙️';
+  margin-right: 10px;
+}

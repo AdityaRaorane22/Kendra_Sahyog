@@ -1,0 +1,31 @@
+.crisis-management-container {
+  padding: 30px; /* Increased padding for spacious feel */
+  background-color: #e0f7fa; /* Light blue background for contrast */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 800px; /* Limit the width for better layout */
+  margin: 20px auto; /* Center the container */
+  font-family: 'Arial', sans-serif; /* Clean font family */
+}
+
+h2 {
+  text-align: center;
+  color: #0277bd; /* Darker shade of blue for the heading */
+  margin-bottom: 20px; /* Spacing below heading */
+  font-size: 24px; /* Increased font size */
+}
+
+p {
+  color: #555; /* Dark gray for the text */
+  font-size: 16px; /* Font size for better readability */
+  line-height: 1.6; /* Improve line height for readability */
+}
+
+.footer {
+  text-align: center; /* Center align footer text */
+  padding: 20px 0; /* Padding for footer */
+  background: linear-gradient(to right, #81d4fa, #29b6f6); /* Gradient for footer */
+  color: white; /* Footer text color */
+  border-radius: 8px; /* Rounded corners for footer */
+  margin-top: 30px; /* Space above footer */
+}

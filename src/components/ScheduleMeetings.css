@@ -1,0 +1,53 @@
+.schedule-meetings-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2e86de;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.member-inputs {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a5276;
+}
+
+.meeting-details {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e7f3fe;
+  border: 1px solid #2e86de;
+  border-radius: 5px;
+}

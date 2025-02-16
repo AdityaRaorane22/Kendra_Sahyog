@@ -1,0 +1,57 @@
+.notice-board-container {
+  padding: 30px; /* Increased padding for spacious feel */
+  background-color: #e0f7fa; /* Light blue background for contrast */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 800px; /* Limit the width for better layout */
+  margin: 20px auto; /* Center the container */
+  font-family: 'Arial', sans-serif; /* Clean font family */
+}
+
+h2 {
+  text-align: center;
+  color: #0277bd; /* Darker shade of blue for the heading */
+  margin-bottom: 20px; /* Spacing below heading */
+  font-size: 24px; /* Increased font size */
+}
+
+p {
+  text-align: center; /* Center align paragraph text */
+  color: #555; /* Dark gray for the text */
+  font-size: 18px; /* Font size for better readability */
+  margin-bottom: 15px; /* Space below paragraph */
+}
+
+select {
+  display: block;
+  margin: 0 auto; /* Center the select element */
+  padding: 10px; /* Padding for the select box */
+  border: 2px solid #007bff; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for select options */
+  color: #333; /* Text color */
+  background-color: white; /* Background color */
+}
+
+.notices-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Reset padding */
+}
+
+.notice-item {
+  background-color: #e9ecef; /* Light gray for notice items */
+  margin: 10px 0; /* Space between notice items */
+  padding: 15px; /* Padding for notice items */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for notice text */
+  color: #333; /* Darker text color */
+}
+
+.footer {
+  text-align: center; /* Center align footer text */
+  padding: 20px 0; /* Padding for footer */
+  background: linear-gradient(to right, #81d4fa, #29b6f6); /* Gradient for footer */
+  color: white; /* Footer text color */
+  border-radius: 8px; /* Rounded corners for footer */
+  margin-top: 30px; /* Space above footer */
+}

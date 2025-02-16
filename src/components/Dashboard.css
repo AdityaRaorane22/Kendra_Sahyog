@@ -1,0 +1,74 @@
+.department-dashboard-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #e0f7fa; /* Light blue background */
+  font-family: 'Arial', sans-serif; /* Clean font family */
+}
+
+.dashboard-navbar {
+  background: linear-gradient(to right, #81d4fa, #29b6f6); /* Gradient for navbar */
+  padding: 10px; /* Padding for navbar */
+  border-radius: 8px; /* Rounded corners for navbar */
+  display: flex; /* Use flexbox for layout */
+}
+
+.navbar-links {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out columns */
+  width: 100%; /* Full width */
+}
+
+.navbar-column1 {
+  display: flex; /* Use flexbox for vertical layout */
+  flex-direction: column; /* Stack items vertically */
+}
+.navbar-column2 {
+  display: flex; /* Use flexbox for vertical layout */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.navbar-links li {
+  margin: 10px 0; /* Space between links */
+}
+
+.navbar-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Black text color */
+  font-size: 18px; /* Font size for better readability */
+  padding: 8px 16px; /* Padding for clickable area */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.navbar-links a:hover {
+  color: #000000; /* Change text color on hover */
+}
+
+.dashboard-body {
+  flex: 1; /* Allow the body to grow and fill the space */
+  padding: 20px; /* Padding for the body content */
+  overflow-y: auto; /* Enable scrolling if content exceeds */
+  margin-left: 20px; /* Space between navbar and content */
+}
+
+h2 {
+  color: #0277bd; /* Darker shade of blue for the heading */
+  margin: 20px 0; /* Spacing below heading */
+  font-size: 28px; /* Increased font size */
+}
+
+.dashboard-description {
+  color: #555; /* Dark gray for the description text */
+  font-size: 16px; /* Font size for better readability */
+  margin-bottom: 20px; /* Space below paragraph */
+  line-height: 1.6; /* Improve line height for readability */
+}
+
+.dashboard-footer {
+  text-align: center; /* Center align footer text */
+  padding: 20px 0; /* Padding for footer */
+  background: linear-gradient(to right, #81d4fa, #29b6f6); /* Gradient for footer */
+  color: white; /* Footer text color */
+  border-radius: 8px; /* Rounded corners for footer */
+  margin-top: auto; /* Push footer to the bottom */
+}
